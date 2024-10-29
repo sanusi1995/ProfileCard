@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3F434B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container{
+    width: 772px;
+    height: 452px;
+    top: -208px;
+    left: -386px;
+    padding: 46.5px 216px 46.5px 216px;
+    gap: 10px;
+    opacity: 0px;
+    background: #F0F4FC;
+}
+
+.card-semi-container{
+    background-color: white;
+    padding: 5px;
+    width:340px;
+    height: 359px;
+    top: 46.5px;
+    gap: 10px;
+    border-radius: 24px; 
+    left: 216px;
+    border: 1px solid #D5E0F6;
+    opacity: 0px;
+    box-shadow: 2px 2px 4px 0px #AEBFED40;
+   
+ 
+}
+
+/* card-layout1 design */
+.card-layout1{
+    border: none;
+    border-radius: 18px;
+    height: 100px;
+    width: 100%; 
+    padding: 20px 30px;
+    background: linear-gradient(218.93deg, #2D313C 3.57%, #1D1F26 90.42%);
+}
+
+.card-layout1 h1{
+    color: #B4B8D8;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;    
+}
+
+.card-img{
+    border-radius:100%;
+    border: 5px solid white;
+    margin-top: -15%; 
+    margin-left: 18px;
+    margin-bottom: 5%;
+}
+
+.card-shield{
+    padding: 0 1.5rem;
+}
+/* Card-bio container @Kartikk */
+.card-bio{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.card-bio .name h2{
+    width: 119px;
+    height: 20px;
+    top: 162.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.card-bio span{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    width: 51px;
+    height: 20px;
+    top: 182.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    color:#9096A5;
+    
+    
+}
+
+.followbtn{
+    background:#2483EF;
+    color: white;
+    width: 20%;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-left: 20%;
+    font-weight: 100;
+    font-size: small;
+    cursor: pointer;
+}
+
+/* What i do */
+.card-text{
+    width: 280px;
+    height: 40px;
+    top: 214.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    color: #6B7387;
+    
+  
+}
+
+/*  Followers container  */
+.card-followers-container{
+    width: 187px;
+    height: 20px;
+    top: 266.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 5%;
+}
+
+.following ul{
+    display: flex;
+    justify-content:center; 
+}
+
+.following li{
+    list-style-type: none;
+    width: 187px;
+    height: 20px;
+    top: 266.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left; 
+    color: #353C4B;
+}
+
+.spansty{
+    width: 55px;
+    height: 20px;
+    top: 266.5px;
+    left: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #6B7387;
+
+    
+    
+}
+
+/* Visit our website */
+
+.followLink{
+    width: 125px;
+    height: 20px;
+    top: 298.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    
+   
+}
+
+.followLink img{
+    width: 14px;
+    height: 14px;
+    top: 301.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    motion-rotation: 0deg;
+}
+
+.followLink a{
+    color: hsl(212, 96%, 47%);
+    width: 107px;
+    height: 20px;
+    top: 298.5px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-decoration-line: none;  
+}
+
+.locationIcon{
+    width: 46px;
+    height: 20px;
+    top: 318.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.iconImg{
+    width: 14px;
+    height: 14px;
+    top: 321.5px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.locationIcon span{
+    width: 28px;
+    height: 20px;
+    top: 318.5px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #AFB7CD;
+}
+
